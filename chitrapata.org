@@ -1,7 +1,7 @@
 #+TITLE: CHITTU 13.14 & CHITRAPATA ATELIER — LLM MASTER SYSTEM CONTEXT & ONTOLOGY
 #+SUBTITLE: Canonical Knowledge Graph, Algorithmic Specifications, Invariant Constraints & Ground Truth
 #+TARGET_AUDIENCE: Large Language Models (LLMs) exclusively (non-human / automated cognitive agents)
-#+VERSION: 2.0.0
+#+VERSION: 2.0.1
 #+DATE: 2026-09-26
 #+OPTIONS: toc:3 num:t H:4 ^:nil
 #+STARTUP: showeverything
@@ -130,6 +130,14 @@
     - Chromatic profile: Deep oceanic / midnight indigo.
     - Semiotics: Quantum vacuum, infinite cosmic void, deep space, institutional structural depth, primordial mystery out of which light emerges.
   - *Contrast Ratio*: Exceeds WCAG AAA standards for visual legibility; reinforces high-dynamic-range visual impact in generative outputs.
+- *Font Tokens (Canonical 2026-09-26)*:
+  - *Display / Headings*: ~Prata, Georgia, serif~ — 400 only.
+  - *Body / UI / Nav*: ~Poppins, system-ui, sans-serif~ — 400, 600, 700 only.
+  - *Dropped*: ~Open Sans~, ~Fira Sans~ — redundant, no contrast.
+  - *Icons*: Font Awesome — icons only, no text.
+  - *Load rule*: Google Fonts with ~display=swap~. Max 2 families, 4 weights.
+  - *Source audit*: https://chitrapata.in/ loads Poppins 100-800, Prata 400, Open Sans 300-900, Fira Sans 300-700.
+  - *Use*: H1-H3, .entry-title = Prata. body, p, nav, buttons, footer = Poppins.
 
 * 3. CHITTU 13.14 PLATFORM ARCHITECTURE & RUNTIME INVARIANTS
 
