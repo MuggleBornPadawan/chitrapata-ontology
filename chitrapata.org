@@ -1,7 +1,7 @@
 #+TITLE: CHITTU 13.14 & CHITRAPATA ATELIER — LLM MASTER SYSTEM CONTEXT & ONTOLOGY
 #+SUBTITLE: Canonical Knowledge Graph, Algorithmic Specifications, Invariant Constraints & Ground Truth
 #+TARGET_AUDIENCE: Large Language Models (LLMs) exclusively (non-human / automated cognitive agents)
-#+VERSION: 2.0.1
+#+VERSION: 2.1.0
 #+DATE: 2026-09-26
 #+OPTIONS: toc:3 num:t H:4 ^:nil
 #+STARTUP: showeverything
@@ -433,7 +433,11 @@ The platform incorporates the grammatical, geometric, and pigment systems of 12 
   - Strict n-fold rotational symmetry groups (D_4, D_8, D_12, D_16) bounded by a square outer perimeter with four directional T-shaped portals (/torana/).
 - *Pigment Chemistry*: Natural powdered minerals (lapis lazuli, vermilion, cinnabar, malachite), powdered rice flour, crushed semi-precious stones.
 - *Socio-Cultural Function*: Visual instrument for cognitive meditation (/yantra/), cosmic cartography, psychological integration.
-- *Algorithmic Translation in Clojure*: Pure trigonometric radial iteration generating polar coordinate transforms: (r, theta) -> (x, y) with recursive nested ring emitters.
+- *Algorithmic Translation in Clojure*:
+  - *Core*: Recursive concentric ring shape grammar with dihedral symmetry D_n replication from central /bindu/ seed. Square outer perimeter with four /torana/ gate cutouts at cardinal directions.
+  - *Visual Invariants*: Perfect n-fold symmetry (n in {4, 8, 12, 16}), square (not circular) outer boundary, four torana gates, central bindu, dense fill within rings, outward complexity gradient.
+  - *State Parameters*: ~symmetry-order~, ~ring-count~ [3-12], ~ring-radii~ (ascending vector), ~torana-width~, ~motif-depths~ [0-4] per ring.
+  - *Full Specification*: ~chitrapata-artforms~ skill, ~references/mandala.md~.
 
 ** 6.2 Kalamkari
 - *Geographic Locus*: Andhra Pradesh (Srikalahasti style: temple hangings; Machilipatnam style: block-printed textiles).
@@ -446,7 +450,11 @@ The platform incorporates the grammatical, geometric, and pigment systems of 12 
   - Red: madder root / alum mordant. Yellow: pomegranate rind and dried myrobalan fruit.
   - Cloth pre-treatment: buffalo milk and astringent myrobalan bath to prevent capillary dye bleeding.
 - *Socio-Cultural Function*: Narrative visualization of epic mythologies (Ramayana, Mahabharata) for village temple assemblies.
-- *Algorithmic Translation in Clojure*: Organic differential line growth algorithms coupled with simulated capillary ink diffusion models.
+- *Algorithmic Translation in Clojure*:
+  - *Core*: Parametric cubic Bézier vine spline growth with sinusoidal undulation, horizontal narrative register band layout, and geometric border friezes (diamond, chevron, lotus chain). Crisp hard-edged linework — NO capillary diffusion (the mordant process explicitly prevents bleeding).
+  - *Visual Invariants*: Horizontal register bands, continuous vine networks, geometric border friezes at register boundaries, crisp hard edges (zero diffusion), flat opaque color fills, paisley /kalka/ terminal motifs, left-to-right narrative reading direction.
+  - *State Parameters*: ~register-count~ [2-8], ~vine-undulation~ [0.05-0.30], ~branch-density~ [4-16], ~frieze-type~ (:diamond, :chevron, :wave, :lotus-chain), ~frieze-period~.
+  - *Full Specification*: ~chitrapata-artforms~ skill, ~references/kalamkari.md~.
 
 ** 6.3 Kalighat
 - *Geographic Locus*: Calcutta (Kolkata), Bengal Presidency, vicinity of Kalighat Kali Temple.
@@ -457,7 +465,11 @@ The platform incorporates the grammatical, geometric, and pigment systems of 12 
   - Volumetric shading achieved by blending wet-on-wet watercolor washes along internal contour borders.
 - *Pigment Chemistry*: Imported water-based pigments and local gum arabic, lampblack, powdered turmeric, and chalk dust.
 - *Socio-Cultural Function*: Urban satirical critique of the Westernized /babu/ class, colonial decadence, changing gender dynamics, and domestic morality.
-- *Algorithmic Translation in Clojure*: Spline stroke generators with dynamic pressure width modulation and non-uniform boundary wash gradients.
+- *Algorithmic Translation in Clojure*:
+  - *Core*: Pressure-modulated calligraphic cubic Bézier spline strokes with bell-curve width envelope (thick at mid-stroke, tapered at ends). One-sided normal-vector volumetric wash shading: gradient extends perpendicular to tangent T(t) on exactly ONE side of each contour, fading over distance ~d-wash~.
+  - *Visual Invariants*: Blank background (zero scenery), bold continuous contour strokes, variable pressure width, one-sided wash (NOT both-sided), flat interior fills, minimal composition (1-3 figures), circle heads with no background detail.
+  - *State Parameters*: ~stroke-width-max~ [0.015-0.04], ~wash-distance~ [0.03-0.12], ~pressure-profile~ (:bell, :parabolic), ~figure-count~ [1-3], ~figure-scale~ [0.4-0.7].
+  - *Full Specification*: ~chitrapata-artforms~ skill, ~references/kalighat.md~.
 
 ** 6.4 Pattachitra
 - *Geographic Locus*: Raghurajpur and Puri, Odisha; also West Bengal (Midnapore).
@@ -469,7 +481,11 @@ The platform incorporates the grammatical, geometric, and pigment systems of 12 
   - Canvas preparation: Cotton cloth coated with tamarind seed powder paste mixed with crushed soft chalk / conch-shell powder, polished with agate stones.
   - Colors: Conch-shell white (/sankha/), lampblack (/kajal/), orpiment yellow (/haritala/), cinnabar red (/hingula/).
 - *Socio-Cultural Function*: Sacred substitute icons during the annual 15-day /Anavasara/ quarantine period of the deities in the Puri temple.
-- *Algorithmic Translation in Clojure*: Multi-tier nested border partition algorithms with strict profile vector polygon transformation rules.
+- *Algorithmic Translation in Clojure*:
+  - *Core*: Nested concentric rectangular border subdivision with alternating floral (/pata dhar/) and geometric tier fills. Central iconic figure constructed from canonical /tala/ proportional skeleton with /padma chokh/ lotus eyes (width ratio 0.6-0.8 of head) and /tribhanga/ S-curve posture (three angular offsets from vertical).
+  - *Visual Invariants*: Minimum 3 nested rectangular border tiers (alternating floral/geometric), central iconic figure, elongated almond /padma chokh/ eyes, sharp triangular pointed chin, black outlines on every shape, dense ornamentation (zero bare surfaces), flat opaque colors.
+  - *State Parameters*: ~border-tier-count~ [3-7], ~tier-types~ (alternating :floral/:geo), ~figure-tala~ [5-9], ~eye-width-ratio~ [0.6-0.8], ~chin-angle~ [45-70°], ~tribhanga-offsets~ [+,-,+].
+  - *Full Specification*: ~chitrapata-artforms~ skill, ~references/pattachitra.md~.
 
 ** 6.5 Pithora
 - *Geographic Locus*: Chhota Udaipur (Gujarat) and Alirajpur / Jhabua (Madhya Pradesh); Rathwa, Bhil, and Nayak tribes.
@@ -479,7 +495,11 @@ The platform incorporates the grammatical, geometric, and pigment systems of 12 
   - Highly stylized rectangular quadrupeds with elongated legs, dot-patterned coats, and flat color fields.
 - *Pigment Chemistry*: Natural earth colors, milk, mahua liquor, and chemical pigments mixed with egg tempera applied onto cow-dung plastered mud walls.
 - *Socio-Cultural Function*: Shamanic votive ritual painting commissioned to invoke domestic peace, fertility, and ward off cosmic distress.
-- *Algorithmic Translation in Clojure*: Discrete multi-agent horse archetype generators placed inside stochastic rectangular bounding zones.
+- *Algorithmic Translation in Clojure*:
+  - *Core*: Deterministic hierarchical slot assignment within sacred /chakh/ wall enclosure. Horizontal register rows with ranked grid positions populated by geometric horse archetype stencils (rectangular body, four stick legs, dot-grid coat fill). Slot scale encodes ritual rank — Baba Pithora (chief deity) at scale 1.0, attendants descending. NOT stochastic, NOT multi-agent.
+  - *Visual Invariants*: Horses dominate (>60% canvas area), hierarchical scale (largest = highest rank), rectangular/trapezoidal horse bodies, stick legs, dot-patterned coats on every horse, horizontal register rows, earth-tone palette, flat fills.
+  - *State Parameters*: ~slot-hierarchy~ (rank -> scale map), ~horse-aspect-ratio~ [2.0-3.0], ~dot-spacing~ [0.015-0.04], ~rider-probability~ [0.0-0.5], ~register-count~ [2-4].
+  - *Full Specification*: ~chitrapata-artforms~ skill, ~references/pithora.md~.
 
 ** 6.6 Tanjore (Thanjavur)
 - *Geographic Locus*: Thanjavur, Tamil Nadu (Cauvery river delta).
@@ -492,7 +512,11 @@ The platform incorporates the grammatical, geometric, and pigment systems of 12 
   - Inlaid semi-precious stones, uncut Belgian glass stones, Jaipur gems.
   - Organic vegetable colors overlaid on jackfruit wood backing boards.
 - *Socio-Cultural Function*: Domestic devotional shrine icons for aristocratic and merchant patrons; symbols of enduring dynastic piety.
-- *Algorithmic Translation in Clojure*: Multi-layer heightmap generation (~art.json~ displacement vectors) with specular gold shader reflection profiles.
+- *Algorithmic Translation in Clojure*:
+  - *Core*: Layered 2.5D composition. Multifoil cusped /prabhavali/ arch (3/5/7 cusp points on guide semicircle with inter-cusp arc bulges), flanking Corinthian columns, central frontal deity. Gesso relief as z-displacement heightmap (raised regions z > 0 receive gold-leaf gilding). Poisson-disk sampling for gem inlay point distribution (minimum spacing constraint prevents clumping).
+  - *Visual Invariants*: Strict frontal bilateral symmetry, cusped prabhavali arch frame, flanking columns, gold-dominant surface, physical relief implied (even in 2D), gem inlay points, single central figure, deep saturated background, heavy ornamentation.
+  - *State Parameters*: ~arch-type~ (:trefoil, :pentafoil, :heptafoil), ~gesso-height~ [0.02-0.08], ~gem-count~ [15-80], ~gem-min-spacing~ [0.02-0.08], ~figure-pose~ (:seated, :standing).
+  - *Full Specification*: ~chitrapata-artforms~ skill, ~references/tanjore.md~.
 
 ** 6.7 Madhubani (Mithila)
 - *Geographic Locus*: Mithila region (Madhubani, Darbhanga, Sitamarhi), Bihar, and southeastern Terai of Nepal.
@@ -502,7 +526,11 @@ The platform incorporates the grammatical, geometric, and pigment systems of 12 
   - Double-line contours enclosing dense linear hatching (/kachni/) and solid monochromatic color fillings (/bharni/).
 - *Pigment Chemistry*: Soot black, kusum flower red, bilva leaf green, palash tree orange, turmeric yellow, applied via chewed bamboo twigs and metal nibs.
 - *Socio-Cultural Function*: Caste-differentiated domestic wall rituals for weddings (/Kohbar ghar/), fertility blessings, and feminine community lineage transfer.
-- *Algorithmic Translation in Clojure*: Space-filling Voronoi tessellations coupled with recursive cross-hatching (~kachni~) fill routines.
+- *Algorithmic Translation in Clojure*:
+  - *Core*: Horror vacui greedy icon packing with double-line contour offset generation. Every shape boundary rendered as two parallel offset strokes with visible gap. Fill modes: /kachni/ (parallel scanline hatching at angles 0°/45°/90°/135° clipped to polygon) and /bharni/ (flat opaque solid fill). Void spaces filled with semantic icons (fish, birds, lotus, sun, moon, eye, leaf) — NOT abstract Voronoi tessellations.
+  - *Visual Invariants*: Zero negative space (every void filled), double-line contours (not single stroke), kachni or bharni per region (never both in one region), black outlines only, flat opaque colors, recognizable semantic icons in voids, rectangular border frame (minimum 2 tiers).
+  - *State Parameters*: ~contour-offset~ [0.003-0.012], ~fill-mode-ratio~ [0.0-1.0] (kachni:bharni), ~hatch-spacing~ [0.006-0.025], ~hatch-angles~ [0,45,90,135], ~icon-vocabulary~, ~central-motif~ (:kohbar, :tree-of-life, :fish-pair, :peacock-pair).
+  - *Full Specification*: ~chitrapata-artforms~ skill, ~references/madhubani.md~.
 
 ** 6.8 Kerala Murals
 - *Geographic Locus*: Temples and royal palaces of Kerala (Padmanabhapuram, Mattancherry, Thrissur Vadakkunnathan).
@@ -513,7 +541,11 @@ The platform incorporates the grammatical, geometric, and pigment systems of 12 
 - *Pigment Chemistry*:
   - Strict Panchavarna (five-color) chromatic palette: White (lime plaster), Yellow (laterite stone), Red (cinnabar / red laterite), Blue/Green (indigo extract and neem leaf juice), Black (oil lamp soot).
 - *Socio-Cultural Function*: Monumental temple sanctum frescos illustrating Sanskrit Puranic epics and tantric visualizations.
-- *Algorithmic Translation in Clojure*: Canonical /tala/ proportional mesh deformation algorithms restricted strictly to the 5-color Panchavarna palette.
+- *Algorithmic Translation in Clojure*:
+  - *Core*: Canonical /tala/ proportional figure skeleton construction (NOT mesh deformation). Joint positions computed as fractions of total height using /Shilpa Shastra/ / /Chitrasutra/ canons (divine = 10 tala, heroic = 8, human = 7). Catmull-Rom spline silhouette from skeleton for curvilinear voluptuous anatomy. /Navarasas/ facial expression system (eye lid droop, brow raise, lip curve per rasa). Volume via /kandana/ stippled dot density modulation (NOT continuous gradient, NOT parallel hatching).
+  - *Visual Invariants*: Exactly five Panchavarna colors (IMMUTABLE: white #FAF0E6, yellow #DAA520, red #CC3333, green-blue #1B6B5A, black #1A1A1A — no sixth color permitted), curvilinear voluptuous anatomy, flowing rhythmic outlines, stippled /kandana/ shading, /tala/-proportioned figures, large expressive eyes, heavy ornamentation, black outlines.
+  - *State Parameters*: ~figure-tala~ {7, 8, 10}, ~rasa~ (:shringara, :veera, :roudra, ...), ~kandana-density-shadow~ [0.5-0.95], ~kandana-density-highlight~ [0.0-0.15], ~panchavarna~ (immutable 5-color map).
+  - *Full Specification*: ~chitrapata-artforms~ skill, ~references/kerala-murals.md~.
 
 ** 6.9 Pichwai
 - *Geographic Locus*: Nathdwara, Rajasthan (near Udaipur).
@@ -523,7 +555,11 @@ The platform incorporates the grammatical, geometric, and pigment systems of 12 
   - Central deity Shrinathji framed by 24 narrative registers depicting daily seasonal festivals (/utsavs/), surrounded by groves of Kadamba trees, stylized cows (/kamadhenu/), and the Yamuna river.
 - *Pigment Chemistry*: Pure powdered silver and gold leaf inks, lapis lazuli, kemp red, applied on heavy starched handspun cotton.
 - *Socio-Cultural Function*: Devotional textile backdrops changed daily according to temple liturgy, season, and celestial festival calendars.
-- *Algorithmic Translation in Clojure*: Grid register partition engines with repetitive botanical and bovine procedural stamp instancing.
+- *Algorithmic Translation in Clojure*:
+  - *Core*: Central-radial composition anchored by Shrinathji deity icon (strict frontal /darshan/ pose). Concentric zones radiating outward: inner attendants (paired cows), middle 24-register calendar grid (each register = one /utsav/ festival panel), outer landscape (Kadamba groves, Yamuna river sinusoidal band). Botanical and bovine archetypes instanced with parametric jitter (horn curve, canopy width, garland drape) — NOT exact copies.
+  - *Visual Invariants*: Central Shrinathji, radial outward composition, paired bilateral symmetry, 24 distinct festival registers, naturalistic anatomically detailed cows (NOT geometric stencils), deep saturated jewel-tone background, metallic gold/silver accents, Kadamba trees present.
+  - *State Parameters*: ~register-count~ (fixed 24), ~cow-count~ [4-12] (must be even), ~cow-jitter-range~, ~tree-count~ [4-10], ~tree-jitter-range~, ~yamuna-amplitude~ [0.02-0.08].
+  - *Full Specification*: ~chitrapata-artforms~ skill, ~references/pichwai.md~.
 
 ** 6.10 Gond
 - *Geographic Locus*: Dindori and Mandla districts, Madhya Pradesh; Gondwana forest heartland.
@@ -533,7 +569,11 @@ The platform incorporates the grammatical, geometric, and pigment systems of 12 
   - Organic morphing of biological forms: a bird merges into a deer antler; a tree trunk transitions into a serpent.
 - *Pigment Chemistry*: Local clay deposits: yellow (/ramraj/), red (/geru/), dark green (chhui mud and bean leaves), black (charcoal).
 - *Socio-Cultural Function*: Narrative visualization of animistic folklore, forest spirits (/bada dev/), and ancestral origin myths.
-- *Algorithmic Translation in Clojure*: Procedural vector field flow lines populating polygonal hulls with parametric dot and dash textures.
+- *Algorithmic Translation in Clojure*:
+  - *Core*: Silhouette-first hull construction with interior vector-field micro-texture fills. 2D direction field (radial, tangential, laminar, or spiral) within each silhouette; repeating micro-patterns stamped along flow lines (dashes, dots, fish scales, comb marks, wavy lines). Cross-species organic morphing via SDF smooth-union blending: ~SDF_blend(A, B, k) = smooth_union(SDF_A(p), SDF_B(p), blend_radius)~. Interior textures cross-fade at morph boundary.
+  - *Visual Invariants*: Interior micro-textures on every organism (NEVER flat fill), different texture per organism/body-part, prominent oversized concentric-circle eyes, smooth curvilinear silhouettes, black outlines, cross-species morphing permitted, generous negative space (NOT horror vacui), earth-tone palette.
+  - *State Parameters*: ~fill-textures~ (map of organism -> texture type), ~fill-spacing~ [0.006-0.025], ~flow-field-type~ (:radial, :tangential, :laminar, :spiral), ~morph-pairs~, ~morph-blend-radius~ [0.03-0.15], ~eye-radius~ [0.01-0.04].
+  - *Full Specification*: ~chitrapata-artforms~ skill, ~references/gond.md~.
 
 ** 6.11 Warli
 - *Geographic Locus*: North Sahyadri range (Thane, Palghar, Raigad districts), Maharashtra.
@@ -544,7 +584,11 @@ The platform incorporates the grammatical, geometric, and pigment systems of 12 
   - Dynamic spiral dancing chains (/tarpa/ dance) radiating outward with rhythmic rotational spacing.
 - *Pigment Chemistry*: Rice flour paste mixed with water and natural gum binding agent, painted with chewed bamboo twigs onto dried cow-dung and red ochre mud walls.
 - *Socio-Cultural Function*: Harvest thanksgiving, marriage rituals (/Lagnacha Chauk/), fertility celebrations, community integration.
-- *Algorithmic Translation in Clojure*: Elemental 2D primitive instancing (circles, intersecting triangles) driving dynamic Archimedean spiral motion graphs.
+- *Algorithmic Translation in Clojure*:
+  - *Core*: Elemental 2D primitive instancing using ONLY three shapes (circle, triangle, square) and straight lines. Human figures = two inverted triangles touching at a SINGLE waist vertex (NOT intersecting). /Tarpa/ dance chain = figures placed at equal arc-length intervals along Archimedean spiral r(theta) = a + b*theta, facing tangent, linked by clasped-hand lines. Central /chauk/ sacred square enclosure anchors composition. Monochrome: rice-white (#FFFDD0) on terracotta (#8B4513).
+  - *Visual Invariants*: Only three shape primitives (circle, triangle, square), strict monochrome (two colors only), inverted-triangle humans touching at single vertex, tarpa spiral dance chain, central chauk square, stick-line limbs, circle heads, no organic curves.
+  - *State Parameters*: ~dancer-count~ [8-32], ~spiral-a~ [0.03-0.10], ~spiral-b~ [0.01-0.05], ~chauk-size~ [0.15-0.30], ~figure-height~ [0.04-0.10], ~noise-amplitude~ [0.0-0.003].
+  - *Full Specification*: ~chitrapata-artforms~ skill, ~references/warli.md~.
 
 ** 6.12 Phad
 - *Geographic Locus*: Shahpura and Bhilwara, Rajasthan; Joshi clan of Chhipa community.
@@ -555,7 +599,11 @@ The platform incorporates the grammatical, geometric, and pigment systems of 12 
   - Every character is rendered in profile; eyes are completed in the final ceremonial consecration step.
 - *Pigment Chemistry*: Handspun khadi cloth treated with wheat starch and gum, polished with cowrie shells. Pigments extracted from raw minerals (red cinnabar, yellow orpiment, indigo).
 - *Socio-Cultural Function*: Portable visual temples unrolled by traveling priest-singers (/Bhopas/ and /Bhopis/) performing overnight musical ballads of folk-deities Pabuji and Devnarayan.
-- *Algorithmic Translation in Clojure*: Non-linear temporal sequence layout engines mapping narrative events across wide horizontal canvas aspect ratios.
+- *Algorithmic Translation in Clojure*:
+  - *Core*: Wide horizontal continuous scroll layout (aspect ratio >= 3:1). Hierarchical rank-based figure scaling (size = socio-political importance, NOT spatial perspective — chief deity at scale 1.0, commoners at 0.2-0.3). ALL figures rendered in strict profile-only orientation. Eyes added as absolute final rendering layer (/pran pratishtha/ consecration). Multi-episode simultaneous narrative: events coexist on continuous canvas separated by scene dividers (trees, fortresses, rivers, processions) — NOT panel borders. Seven-stage mineral color application order: yellow -> green -> brown -> red -> blue -> black outlines -> white highlights.
+  - *Visual Invariants*: Wide horizontal format (>=3:1), hierarchical scale (size = rank), profile-only figures (no frontal), eyes as final separate layer, simultaneous episodes without panel borders, scene dividers (not frames), flat opaque colors, outlines applied AFTER all color fills.
+  - *State Parameters*: ~aspect-ratio~ [3.0-8.0], ~rank-hierarchy~ (rank -> scale map), ~episode-count~ [3-12], ~base-figure-height~ [0.25-0.45], ~divider-types~ [:tree, :fortress, :river, :horse-procession], ~palette-order~ (7-stage mineral sequence).
+  - *Full Specification*: ~chitrapata-artforms~ skill, ~references/phad.md~.
 
 * 7. ECOSYSTEM KNOWLEDGE GRAPH & REFERENCE TAXONOMY
 
